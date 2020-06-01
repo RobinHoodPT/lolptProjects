@@ -18,7 +18,7 @@
 #include <discordpp/websocket-beast.hh>
 #include <discordpp/plugin-responder.hh>
 
-//#include <Commands/AddStaffMember.h>
+#include <Commands/AddStaffMember.h>
 
 namespace asio = boost::asio;
 using json = nlohmann::json;
@@ -34,6 +34,9 @@ dpp::PluginResponder<
                 >
         >
 >;
+
+
+
 
 class BotManager {
 public:
